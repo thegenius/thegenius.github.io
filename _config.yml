@@ -11,7 +11,7 @@ author: Wang Wei
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
-
+repository: "thegenius/thegenius.github.io"
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
@@ -64,7 +64,7 @@ feed:
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
-gems:
+plugins:
 # jemoji conficts with toc in some no-ascii post
 # - jemoji
  - jekyll-sitemap
